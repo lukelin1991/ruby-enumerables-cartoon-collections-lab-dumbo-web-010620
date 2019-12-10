@@ -15,6 +15,9 @@ def summon_captain_planet(elements)# code an argument here
 end
 
 def long_planeteer_calls(long_elements)# code an argument here
+  calls.any? do |call|
+    call.length > 4
+  end
   # Your code here
 end
 
