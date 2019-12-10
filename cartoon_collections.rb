@@ -22,6 +22,10 @@ def long_planeteer_calls(long_elements)# code an argument here
 end
 
 def find_the_cheese(mouse)# code an argument here
+  idx = 0
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  while idx < cheese_types.length do
+    return cheese_types[idx] if array.include?(cheese_types[idx])
+    i += 1
 end
