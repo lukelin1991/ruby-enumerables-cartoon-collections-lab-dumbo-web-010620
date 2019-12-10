@@ -29,5 +29,4 @@ def find_the_cheese(mouse)# code an argument here
     return cheese_types[idx] if array.include?(cheese_types[idx])
     i += 1
   end
-  binding.pry
 end
