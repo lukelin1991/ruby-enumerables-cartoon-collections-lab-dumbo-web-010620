@@ -26,7 +26,7 @@ def find_the_cheese(mouse)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   while idx < cheese_types.length do
-    return cheese_types[idx] if array.include?(cheese_types[idx])
+    return cheese_types[idx] if mouse.include?(cheese_types[idx])
     i += 1
   end
 end
