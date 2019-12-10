@@ -5,6 +5,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   while i < dwarves.length do
     puts "#{i+1}. #{dwarves[i]}"
     i += 1
+    binding.pry
   end
   # Your code here
 end
