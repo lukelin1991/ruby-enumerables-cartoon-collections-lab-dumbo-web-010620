@@ -1,11 +1,9 @@
 require 'pry'
 
 def roll_call_dwarves(dwarves)# code an argument here
-  i = 0
-  while i < dwarves.length do
-    puts "#{i+1}. #{dwarves[i]}"
-    i += 1
-    binding.pry
+  dwarves.each_with_index do |name, index|
+    index += 1
+    puts "#{index}. #{name}"
   end
   # Your code here
 end
